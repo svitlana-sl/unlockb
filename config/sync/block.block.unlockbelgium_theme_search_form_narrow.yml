@@ -1,0 +1,23 @@
+uuid: ce26a587-8baf-4534-b383-aea55911ad61
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - unlockbelgium_theme
+_core:
+  default_config_hash: _nZjxxdypO6xrOAJkCYD81v0L7wh2zbCAVO7_C-UKIc
+id: unlockbelgium_theme_search_form_narrow
+theme: unlockbelgium_theme
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

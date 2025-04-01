@@ -1,0 +1,22 @@
+uuid: 1e754fd9-a3de-406a-9c0c-a450a0b7cd53
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - unlockbelgium_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: unlockbelgium_theme_breadcrumbs
+theme: unlockbelgium_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
