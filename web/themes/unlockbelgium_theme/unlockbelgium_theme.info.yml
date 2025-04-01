@@ -1,0 +1,22 @@
+name: unlockbelgium_theme
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - unlockbelgium_theme/base
+  - unlockbelgium_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - unlockbelgium_theme/user
+  core/drupal.dropbutton:
+    - unlockbelgium_theme/dropbutton
+  core/drupal.dialog:
+    - unlockbelgium_theme/dialog
+  file/drupal.file:
+    - unlockbelgium_theme/file
+  core/drupal.progress:
+    - unlockbelgium_theme/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.5'

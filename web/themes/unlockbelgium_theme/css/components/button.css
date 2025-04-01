@@ -1,0 +1,39 @@
+/**
+ * @file
+ * Visual styles for buttons.
+ */
+
+/**
+ * @file
+ * Visual styles for buttons.
+ */
+
+.button,
+.image-button {
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.image-button:hover {
+  background-color: #0056b3;
+}
+
+.button:active,
+.image-button:active {
+  background-color: #00408b;
+}
+
+.button:first-child,
+.image-button:first-child {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
