@@ -1,10 +1,11 @@
 name: unlockbelgium_theme
 type: theme
-'base theme': stable9
+"base theme": stable9
 version: 1.0.0
 libraries:
   - unlockbelgium_theme/base
   - unlockbelgium_theme/messages
+  - unlockbelgium_theme/global-styling
   - core/normalize
 libraries-extend:
   user/drupal.user:
@@ -17,6 +18,6 @@ libraries-extend:
     - unlockbelgium_theme/file
   core/drupal.progress:
     - unlockbelgium_theme/progress
-description: ''
+description: ""
 core_version_requirement: ^11
-generator: 'starterkit_theme:11.1.5'
+generator: "starterkit_theme:11.1.5"
