@@ -1,4 +1,10 @@
+# Composer
 vendor/
+
+# Drupal core & contrib
 web/themes/unlockbelgium_theme/node_modules/
 web/sites/default/files/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
 
