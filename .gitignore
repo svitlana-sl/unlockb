@@ -1,10 +1,33 @@
 # Composer
-vendor/
+/vendor/
 
-# Drupal core & contrib
-web/themes/unlockbelgium_theme/node_modules/
-web/sites/default/files/
+# Drupal core
+/web/core/
+
+# Contrib modules/themes/profiles
 /web/modules/contrib/
 /web/themes/contrib/
 /web/profiles/contrib/
 
+# Custom theme dependencies
+/web/themes/unlockbelgium_theme/node_modules/
+
+# Uploaded files
+/web/sites/default/files/
+
+# Local development files
+web/sites/*/settings.local.php
+web/sites/*/services.local.yml
+web/sites/*/*.sqlite
+web/sites/*/private/
+web/sites/default/files/css/
+web/sites/default/files/js/
+
+
+# IDE / OS / miscellaneous temp files
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
