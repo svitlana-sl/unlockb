@@ -19,9 +19,11 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/devel": "^5.3",
         "drupal/flag": "^4.0@beta",
         "drupal/geolocation": "^3.14",
         "drupal/gin": "^4.0",
+        "drupal/language_switcher_extended": "^1.2",
         "drupal/leaflet": "^10.2",
         "drupal/metatag": "^2.1",
         "drupal/migrate_plus": "^6.0",
@@ -30,12 +32,13 @@
         "drupal/pathauto": "^1.13",
         "drupal/redirect": "^1.11",
         "drupal/social_auth_google": "^4.0",
+        "drupal/webform": "^6.3",
         "drush/drush": "^13.4"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {

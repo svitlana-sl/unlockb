@@ -1,0 +1,20 @@
+uuid: d6054bad-8799-48a6-b36c-4e77b4e96293
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - unlockbelgium_theme
+id: unlockbelgium_theme_languageswitcher
+theme: unlockbelgium_theme
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }
