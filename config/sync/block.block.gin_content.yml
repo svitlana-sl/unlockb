@@ -1,6 +1,6 @@
 uuid: fab95f9d-fb10-4469-a969-3bf49d424b7d
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
 id: gin_content
 theme: gin
-region: content
+region: header
 weight: 0
 provider: null
 plugin: system_main_block
