@@ -31,3 +31,4 @@ web/sites/default/files/js/
 *.log
 *.tmp
 *.swp
+/web/modules/contrib/
