@@ -1,0 +1,35 @@
+display:
+  default:
+    display_title: Standaard
+    display_options:
+      fields:
+        id:
+          label: ID
+          separator: ', '
+        plugin_id:
+          label: 'Plug-in ID'
+          separator: ', '
+        provider_user_id:
+          separator: ', '
+        operations:
+          label: Bewerkingen
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Items per pagina'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Offset
+      exposed_form:
+        options:
+          submit_button: Toepassen
+          reset_button_label: 'Opnieuw instellen'
+          exposed_sorts_label: 'Sorteren op'
+          sort_asc_label: Oplopend
+          sort_desc_label: Aflopend
+      arguments:
+        user_id:
+          exception:
+            title: Alle
