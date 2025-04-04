@@ -1,0 +1,9 @@
+uuid: 32d85452-cbe5-4c91-912d-4cc78eab0703
+langcode: nl
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'location categories'
+weight: 0
+new_revision: false
