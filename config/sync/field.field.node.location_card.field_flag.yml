@@ -1,0 +1,21 @@
+uuid: dc328f37-0158-40fd-9e99-31499f82434a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_flag
+    - node.type.location_card
+id: node.location_card.field_flag
+field_name: field_flag
+entity_type: node
+bundle: location_card
+label: Flag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

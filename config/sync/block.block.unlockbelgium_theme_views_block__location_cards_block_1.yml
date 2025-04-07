@@ -1,0 +1,24 @@
+uuid: ca85e7c3-845c-45ab-8b76-72901db37dda
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.location_cards
+  module:
+    - views
+  theme:
+    - unlockbelgium_theme
+id: unlockbelgium_theme_views_block__location_cards_block_1
+theme: unlockbelgium_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:location_cards-block_1'
+settings:
+  id: 'views_block:location_cards-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
