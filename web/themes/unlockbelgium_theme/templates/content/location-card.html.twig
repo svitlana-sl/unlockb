@@ -1,0 +1,32 @@
+<div class="location-card max-w-sm rounded overflow-hidden shadow-lg relative">
+    <!-- Card Image: Displays the image of the card -->
+    <img src="{{ content.field_image.0['#item'].uri | image_style('large') }}" 
+         alt="{{ content.field_image.0['#item'].alt }}" 
+         class="w-full h-48 object-cover">
+
+    <!-- Overlay for text below image -->
+    <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-2 text-white text-center">
+        <!-- Card Title: Displays the title of the card -->
+        <p class="text-xl">{{ content.field_title.0['#markup'] }}</p> <!-- Видалити або закоментувати цей рядок, щоб не показувати заголовок -->
+    </div>
+
+    <!-- Like Button: Displays the like button, changes state when clicked -->
+    <div class="absolute top-2 right-2 flex items-center space-x-2">
+        <button class="like-button">
+            {% if content.field_like.0['#markup'] == '1' %}
+                <i class="fas fa-heart text-red-500"></i> <!-- Liked -->
+            {% else %}
+                <i class="fas fa-heart"></i> <!-- Not liked -->
+            {% endif %}
+        </button>
+
+        <!-- Flag Button: Displays the flag button, changes state when clicked -->
+        <button class="flag-button">
+            {% if content.field_flag.0['#markup'] == '1' %}
+                <i class="fas fa-flag text-blue-500"></i> <!-- Flagged -->
+            {% else %}
+                <i class="fas fa-flag"></i> <!-- Not flagged -->
+            {% endif %}
+        </button>
+    </div>
+</div>
