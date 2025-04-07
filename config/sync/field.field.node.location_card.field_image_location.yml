@@ -1,17 +1,17 @@
-uuid: e468a2d5-3d84-4427-8417-f2b3a0fadb10
+uuid: 04cbca91-de9d-4f9a-87e4-0a6f39fa32be
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_location_image
+    - field.storage.node.field_image_location
     - node.type.location_card
   module:
     - image
-id: node.location_card.field_location_image
-field_name: field_location_image
+id: node.location_card.field_image_location
+field_name: field_image_location
 entity_type: node
 bundle: location_card
-label: Image
+label: image_location
 description: ''
 required: false
 translatable: false

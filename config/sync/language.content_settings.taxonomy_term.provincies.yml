@@ -1,0 +1,16 @@
+uuid: c530cebb-6c0d-4d59-b8c0-1239b5972e54
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.provincies
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.provincies
+target_entity_type_id: taxonomy_term
+target_bundle: provincies
+default_langcode: nl
+language_alterable: true

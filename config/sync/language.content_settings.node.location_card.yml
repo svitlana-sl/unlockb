@@ -1,4 +1,4 @@
-uuid: 86b6fd9c-31b7-4e41-9a79-5d1731916309
+uuid: 189fb91d-3435-475b-bf5c-b52038429ad1
 langcode: en
 status: true
 dependencies:
@@ -7,5 +7,5 @@ dependencies:
 id: node.location_card
 target_entity_type_id: node
 target_bundle: location_card
-default_langcode: site_default
+default_langcode: nl
 language_alterable: false

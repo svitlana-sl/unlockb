@@ -1,15 +1,15 @@
-uuid: ecb934d7-f7f6-4586-a2be-ded454001d42
+uuid: dc328f37-0158-40fd-9e99-31499f82434a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_done
+    - field.storage.node.field_flag
     - node.type.location_card
-id: node.location_card.field_done
-field_name: field_done
+id: node.location_card.field_flag
+field_name: field_flag
 entity_type: node
 bundle: location_card
-label: Done
+label: Flag
 description: ''
 required: false
 translatable: false

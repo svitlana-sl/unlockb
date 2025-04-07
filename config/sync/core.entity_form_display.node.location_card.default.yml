@@ -1,13 +1,14 @@
-uuid: de86bcf5-7ec0-4648-b60b-043d9ebfe00b
+uuid: e01dc996-3e22-4bd0-ae77-bbe83ed66d36
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.location_card.field_card_title
-    - field.field.node.location_card.field_done
+    - field.field.node.location_card.field_category_card
+    - field.field.node.location_card.field_flag
+    - field.field.node.location_card.field_image_location
     - field.field.node.location_card.field_like
     - field.field.node.location_card.field_link
-    - field.field.node.location_card.field_location_image
     - image.style.thumbnail
     - node.type.location_card
   module:
@@ -33,35 +34,45 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_done:
-    type: boolean_checkbox
+  field_category_card:
+    type: entity_reference_autocomplete
     weight: 124
     region: content
     settings:
-      display_label: true
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-  field_like:
+  field_flag:
     type: boolean_checkbox
-    weight: 123
+    weight: 126
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
-  field_link:
-    type: link_default
-    weight: 125
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-  field_location_image:
+  field_image_location:
     type: image_image
     weight: 121
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_like:
+    type: boolean_checkbox
+    weight: 125
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 123
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -114,5 +125,10 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }
