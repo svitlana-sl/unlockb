@@ -1,0 +1,11 @@
+uuid: 86b6fd9c-31b7-4e41-9a79-5d1731916309
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.location_card
+id: node.location_card
+target_entity_type_id: node
+target_bundle: location_card
+default_langcode: site_default
+language_alterable: false

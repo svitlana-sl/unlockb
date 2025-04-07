@@ -1,22 +1,20 @@
-uuid: 100bc1fa-dbe0-4b9c-b8d2-e50078f1a4c0
+uuid: e468a2d5-3d84-4427-8417-f2b3a0fadb10
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - node.type.article
+    - field.storage.node.field_location_image
+    - node.type.location_card
   module:
     - image
-_core:
-  default_config_hash: j0riO_-77ZFWNLtj0iJ31HnohiNjdn8HUL86RueCF-M
-id: node.article.field_image
-field_name: field_image
+id: node.location_card.field_location_image
+field_name: field_location_image
 entity_type: node
-bundle: article
+bundle: location_card
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -32,7 +30,7 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

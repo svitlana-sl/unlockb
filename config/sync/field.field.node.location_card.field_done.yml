@@ -1,0 +1,21 @@
+uuid: ecb934d7-f7f6-4586-a2be-ded454001d42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_done
+    - node.type.location_card
+id: node.location_card.field_done
+field_name: field_done
+entity_type: node
+bundle: location_card
+label: Done
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
