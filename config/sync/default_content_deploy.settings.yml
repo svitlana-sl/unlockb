@@ -1,0 +1,7 @@
+content_directory: /content
+text_dependencies: true
+skip_export_timestamp: false
+skip_entity_types: {  }
+batch_ttl: 14400
+skip_computed_fields: false
+skip_processed_values: false

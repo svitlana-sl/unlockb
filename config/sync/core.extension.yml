@@ -15,10 +15,13 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  default_content_deploy: 0
   devel: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
+  feeds: 0
+  feeds_tamper: 0
   field: 0
   field_ui: 0
   file: 0
@@ -26,6 +29,7 @@ module:
   flag: 0
   geofield: 0
   geolocation: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
@@ -51,11 +55,15 @@ module:
   path_alias: 0
   redirect: 0
   search: 0
+  search_api: 0
+  search_api_default_content_deploy: 0
+  serialization: 0
   shortcut: 0
   social_api: 0
   social_auth: 0
   social_auth_google: 0
   system: 0
+  tamper: 0
   taxonomy: 0
   text: 0
   token: 0

@@ -1,15 +1,9 @@
-label: Commentaires
-description: 'Trouver et gérer les commentaires.'
 display:
   default:
     display_title: 'Par défaut'
     display_options:
-      title: Commentaires
       fields:
-        comment_bulk_form:
-          action_title: Action
         subject:
-          label: Objet
           separator: ', '
         uid:
           separator: ', '
@@ -17,7 +11,6 @@ display:
           label: Auteur
           separator: ', '
         entity_id:
-          label: 'Posté sur'
           separator: ', '
         changed:
           label: 'Mis à jour'
@@ -44,32 +37,17 @@ display:
           exposed_sorts_label: 'Trier par'
           sort_asc_label: Asc
           sort_desc_label: Desc
-      empty:
-        area_text_custom:
-          content: 'Aucun commentaire disponible.'
       filters:
-        subject:
+        combine:
           expose:
-            label: Objet
+            label: "Nom de l'auteur"
         langcode:
           expose:
             label: Langue
-      use_more_text: plus
-  page_published:
-    display_title: 'Commentaires publiés'
-    display_options:
-      display_description: 'La liste des commentaires approuvés.'
-      menu:
-        title: Commentaires
-        description: 'Commentaires publiés'
   page_unapproved:
-    display_title: 'Commentaires non approuvés'
     display_options:
       fields:
-        comment_bulk_form:
-          action_title: Action
         subject:
-          label: Objet
           separator: ', '
         uid:
           separator: ', '
@@ -77,7 +55,6 @@ display:
           label: Auteur
           separator: ', '
         entity_id:
-          label: 'Posté sur'
           separator: ', '
         changed:
           label: 'Mis à jour'
@@ -87,16 +64,6 @@ display:
         name_1:
           separator: ', '
       filters:
-        subject:
-          expose:
-            label: Objet
-        combine:
-          expose:
-            label: "Nom de l'auteur"
         langcode:
           expose:
             label: Langue
-      display_description: 'La liste des commentaires non-approuvés.'
-      menu:
-        title: 'Commentaires non approuvés'
-        description: 'Commentaires non-approuvés'

@@ -1,5 +1,3 @@
-label: Woordenlijst
-description: 'Alle inhoud, op letter.'
 display:
   default:
     display_title: Standaard
@@ -9,8 +7,6 @@ display:
           label: Titel
         name:
           label: Auteur
-        changed:
-          label: 'Laatst bijgewerkt'
       pager:
         options:
           tags:
@@ -27,10 +23,5 @@ display:
           exposed_sorts_label: 'Sorteren op'
           sort_asc_label: Oplopend
           sort_desc_label: Aflopend
-  attachment_1:
-    display_title: Bijlage
   page_1:
     display_title: Pagina
-    display_options:
-      menu:
-        title: Woordenlijst

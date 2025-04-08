@@ -1,26 +1,12 @@
-label: Watchdog
-description: 'Recente logberichten'
 display:
   default:
     display_title: Standaard
     display_options:
-      title: 'Recente logberichten'
       fields:
-        nothing:
-          admin_label: Pictogram
-        wid:
-          label: Watchdog-ID
-        severity:
-          label: Ernst
         type:
           label: Type
-        timestamp:
-          label: Datum
         message:
           label: Bericht
-          alter:
-            path: 'admin/reports/dblog/event/{{ wid }}'
-            alt: '{{ message }}'
         name:
           label: Gebruiker
           separator: ', '
@@ -50,8 +36,5 @@ display:
         type:
           expose:
             label: Type
-        severity:
-          expose:
-            label: Ernst
   page:
     display_title: Pagina

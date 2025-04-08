@@ -1,0 +1,33 @@
+uuid: 3562f29a-cd97-4ddd-abdd-362aedf7fcb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.belgian_cities.feeds_item
+    - field.field.taxonomy_term.belgian_cities.field_zipcode
+    - taxonomy.vocabulary.belgian_cities
+  module:
+    - text
+id: taxonomy_term.belgian_cities.default
+targetEntityType: taxonomy_term
+bundle: belgian_cities
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_zipcode:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  feeds_item: true
+  langcode: true

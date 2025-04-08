@@ -1,0 +1,19 @@
+uuid: d6326fa2-94c3-40a5-81e6-847ae1404b03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_zipcode
+    - taxonomy.vocabulary.belgian_cities
+id: taxonomy_term.belgian_cities.field_zipcode
+field_name: field_zipcode
+entity_type: taxonomy_term
+bundle: belgian_cities
+label: zipcode
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

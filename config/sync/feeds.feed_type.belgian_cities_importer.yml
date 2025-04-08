@@ -1,0 +1,66 @@
+uuid: a70acdb8-2f50-48a5-ab7e-618a4ae75bb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.belgian_cities.field_zipcode
+    - taxonomy.vocabulary.belgian_cities
+  module:
+    - taxonomy
+label: 'Belgian cities importer'
+id: belgian_cities_importer
+description: 'Belgian cities with postal codes'
+help: ''
+import_period: 3600
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:taxonomy_term'
+processor_configuration:
+  values:
+    vid: belgian_cities
+  langcode: nl
+  insert_new: 1
+  update_existing: 0
+  update_non_existent: _keep
+  skip_hash_check: false
+  skip_validation: false
+  skip_validation_types: {  }
+  authorize: false
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  postal:
+    value: postal
+    label: postal
+    machine_name: postal
+    type: csv
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: csv
+mappings:
+  -
+    target: field_zipcode
+    map:
+      value: postal
+    settings:
+      language: null
+    unique:
+      value: 1
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique: {  }

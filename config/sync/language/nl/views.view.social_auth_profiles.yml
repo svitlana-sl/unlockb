@@ -7,7 +7,6 @@ display:
           label: ID
           separator: ', '
         plugin_id:
-          label: 'Plug-in ID'
           separator: ', '
         provider_user_id:
           separator: ', '
