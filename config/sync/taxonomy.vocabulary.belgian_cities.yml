@@ -1,0 +1,9 @@
+uuid: 8931d56c-fc3d-47c9-8bbf-5277278dc748
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Belgian Cities'
+vid: belgian_cities
+description: 'Belgian cities with postal codes'
+weight: 0
+new_revision: false

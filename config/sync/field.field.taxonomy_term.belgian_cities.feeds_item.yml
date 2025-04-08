@@ -1,0 +1,23 @@
+uuid: a2592f2f-145b-45e2-a1ec-6390d0179f93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.feeds_item
+    - taxonomy.vocabulary.belgian_cities
+  module:
+    - feeds
+id: taxonomy_term.belgian_cities.feeds_item
+field_name: feeds_item
+entity_type: taxonomy_term
+bundle: belgian_cities
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

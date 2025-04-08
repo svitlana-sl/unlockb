@@ -1,15 +1,9 @@
-label: Reacties
-description: 'Zoek en beheer reacties.'
 display:
   default:
     display_title: Standaard
     display_options:
-      title: Reacties
       fields:
-        comment_bulk_form:
-          action_title: Actie
         subject:
-          label: Onderwerp
           separator: ', '
         uid:
           separator: ', '
@@ -17,7 +11,6 @@ display:
           label: Auteur
           separator: ', '
         entity_id:
-          label: 'Geplaatst in'
           separator: ', '
         changed:
           label: Bijgewerkt
@@ -44,32 +37,17 @@ display:
           exposed_sorts_label: 'Sorteren op'
           sort_asc_label: Oplopend
           sort_desc_label: Aflopend
-      empty:
-        area_text_custom:
-          content: 'Geen reacties beschikbaar.'
       filters:
-        subject:
+        combine:
           expose:
-            label: Onderwerp
+            label: 'Naam auteur'
         langcode:
           expose:
             label: Taal
-      use_more_text: meer
-  page_published:
-    display_title: 'Gepubliceerde reacties'
-    display_options:
-      display_description: 'Lijst met goedgekeurde reacties.'
-      menu:
-        title: Reacties
-        description: 'Reacties gepubliceerd.'
   page_unapproved:
-    display_title: 'Niet-goedgekeurde reacties'
     display_options:
       fields:
-        comment_bulk_form:
-          action_title: Actie
         subject:
-          label: Onderwerp
           separator: ', '
         uid:
           separator: ', '
@@ -77,7 +55,6 @@ display:
           label: Auteur
           separator: ', '
         entity_id:
-          label: 'Geplaatst in'
           separator: ', '
         changed:
           label: Bijgewerkt
@@ -87,16 +64,6 @@ display:
         name_1:
           separator: ', '
       filters:
-        subject:
-          expose:
-            label: Onderwerp
-        combine:
-          expose:
-            label: Auteursnaam
         langcode:
           expose:
             label: Taal
-      display_description: 'Lijst met afgekeurde reacties.'
-      menu:
-        title: 'Niet-goedgekeurde reacties'
-        description: 'Reacties afgekeurd'

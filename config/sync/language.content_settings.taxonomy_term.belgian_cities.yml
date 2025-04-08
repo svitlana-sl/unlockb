@@ -1,0 +1,16 @@
+uuid: 89d05232-a86a-4891-bff7-0cb7121696d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.belgian_cities
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.belgian_cities
+target_entity_type_id: taxonomy_term
+target_bundle: belgian_cities
+default_langcode: nl
+language_alterable: true

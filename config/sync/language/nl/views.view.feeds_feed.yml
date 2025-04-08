@@ -1,10 +1,11 @@
+label: Feeds
 display:
   default:
     display_title: Master
     display_options:
       exposed_form:
         options:
-          submit_button: Filter
+          submit_button: Toepassen
           reset_button_label: 'Opnieuw instellen'
           exposed_sorts_label: 'Sorteren op'
           sort_asc_label: Oplopend
@@ -21,19 +22,36 @@ display:
             items_per_page_options_all_label: '- Alle -'
             offset_label: Offset
       fields:
-        redirect_bulk_form:
+        feeds_feed_bulk_form:
+          label: Bulk-update
           action_title: 'Met selectie'
-        redirect_source__path:
-          label: Van
+        title:
+          label: Titel
           separator: ', '
-        created:
-          label: Aangemaakt
+        type:
+          label: Type
+          separator: ', '
+        name:
+          label: Auteur
+          separator: ', '
+        changed:
+          label: Bijgewerkt
+          separator: ', '
+        imported:
+          label: Geïmporteerd
+          separator: ', '
+        operations:
+          label: Bewerkingen
       filters:
-        redirect_source__path:
+        title:
           expose:
-            label: Van
-        redirect_redirect__uri:
+            label: Titel
+        type:
           expose:
-            label: Naar
+            label: Type
+      title: Feeds
   page_1:
     display_title: Pagina
+    display_options:
+      menu:
+        title: Feeds

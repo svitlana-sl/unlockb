@@ -1,5 +1,3 @@
-label: Taxonomieterm
-description: 'Inhoud van een bepaalde taxonomieterm'
 display:
   default:
     display_title: Standaard
@@ -24,7 +22,6 @@ display:
         tid:
           exception:
             title: Alle
-          title: '{{ arguments.tid }}'
   feed_1:
     display_title: Feed
   page_1:

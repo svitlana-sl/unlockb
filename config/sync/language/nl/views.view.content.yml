@@ -1,5 +1,4 @@
 label: Inhoud
-description: 'Inhoud zoeken en beheren.'
 display:
   default:
     display_title: Standaard
@@ -9,15 +8,11 @@ display:
         title:
           label: Titel
         type:
-          label: Inhoudstype
           separator: ', '
         name:
           label: Auteur
         status:
           label: Status
-          settings:
-            format_custom_false: 'Niet gepubliceerd'
-            format_custom_true: Gepubliceerd
         changed:
           label: Bijgewerkt
         langcode:
@@ -25,13 +20,6 @@ display:
           separator: ', '
         operations:
           label: Bewerkingen
-      pager:
-        options:
-          tags:
-            next: 'Volgende ›'
-            previous: '‹ Vorige'
-            first: '« Eerste'
-            last: 'Laatste »'
       exposed_form:
         options:
           submit_button: Filter
@@ -39,26 +27,13 @@ display:
           exposed_sorts_label: 'Sorteren op'
           sort_asc_label: Oplopend
           sort_desc_label: Aflopend
-      empty:
-        area_text_custom:
-          content: 'Geen inhoud beschikbaar.'
       filters:
         title:
           expose:
             label: Titel
-        type:
-          expose:
-            label: Inhoudstype
         status:
           expose:
             label: Status
-          group_info:
-            label: Publicatiestatus
-            group_items:
-              1:
-                title: Gepubliceerd
-              2:
-                title: 'Niet gepubliceerd'
         langcode:
           expose:
             label: Taal
@@ -69,4 +44,3 @@ display:
         title: Inhoud
       tab_options:
         title: Inhoud
-        description: 'Inhoud vinden en beheren'

@@ -1,26 +1,12 @@
-label: Watchdog
-description: 'Entrées récentes du journal'
 display:
   default:
     display_title: 'Par défaut'
     display_options:
-      title: 'Entrées récentes du journal'
       fields:
-        nothing:
-          admin_label: Icône
-        wid:
-          label: WID
-        severity:
-          label: Importance
         type:
           label: Type
-        timestamp:
-          label: Date
         message:
           label: Message
-          alter:
-            path: 'admin/reports/dblog/event/{{ wid }}'
-            alt: '{{ message }}'
         name:
           label: Utilisateur
           separator: ', '
@@ -50,8 +36,5 @@ display:
         type:
           expose:
             label: Type
-        severity:
-          expose:
-            label: Importance
   page:
     display_title: Page
