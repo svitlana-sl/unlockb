@@ -20,6 +20,8 @@
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
         "drupal/devel": "^5.3",
+        "drupal/feeds": "^3.0",
+        "drupal/feeds_tamper": "^2.0@beta",
         "drupal/flag": "^4.0@beta",
         "drupal/geolocation": "^3.14",
         "drupal/gin": "^4.0",
