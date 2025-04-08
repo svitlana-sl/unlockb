@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
+        "drupal/default_content_deploy": "^2.1",
         "drupal/devel": "^5.3",
         "drupal/feeds": "^3.0",
         "drupal/feeds_tamper": "^2.0@beta",
@@ -36,6 +37,7 @@
         "drupal/paragraphs": "^1.19",
         "drupal/pathauto": "^1.13",
         "drupal/redirect": "^1.11",
+        "drupal/search_api": "^1.38",
         "drupal/social_auth_google": "^4.0",
         "drupal/webform": "^6.3",
         "drush/drush": "^13.4"
