@@ -1,0 +1,153 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/nl\/markt?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/taxonomy_term\/categories"
+        },
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ],
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/categories\/content_translation_uid": [
+            {
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/user\/1?_format=hal_json",
+                "lang": "nl"
+            }
+        ]
+    },
+    "tid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ff7adee8-85ca-43d8-a064-52bc8166752d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl",
+            "lang": "nl"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categories"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2025-04-04T13:07:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "nl"
+        }
+    ],
+    "name": [
+        {
+            "value": "Markt",
+            "lang": "nl"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ],
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/categories\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d01983f-d9d2-4a4c-9c68-44170d5f6b5f"
+                    }
+                ],
+                "lang": "nl"
+            }
+        ]
+    },
+    "changed": [
+        {
+            "value": "2025-04-04T13:07:00+00:00",
+            "lang": "nl",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "nl"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "nl"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "Markt | Drush Site-Install"
+            },
+            "lang": "nl"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/nl\/markt"
+            },
+            "lang": "nl"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/markt",
+            "pid": 21,
+            "langcode": "nl",
+            "lang": "nl"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "nl"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "nl"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2025-04-04T13:07:00+00:00",
+            "lang": "nl",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744192248
+    }
+}
