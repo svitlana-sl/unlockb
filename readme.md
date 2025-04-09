@@ -23,3 +23,10 @@ ddev composer require drupal/feeds
 ```shell
 ddev composer require drupal/feeds_tamper
 ```
+## Local setup for content export
+
+Create `web/sites/default/settings.local.php` with:
+
+```php
+<?php
+$settings['default_content_deploy_content_directory'] = '../content';
