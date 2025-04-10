@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "75decfa5-4e1f-4253-884d-32debc7a0548"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/33"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/brussel"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}

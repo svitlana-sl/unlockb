@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "67e0c0b1-16fa-4af5-9adc-7c9989d0fc7d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/activiteit"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f7b308f8-4408-4b12-a6fe-6b0553ff9c5f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/14"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/natuur"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}

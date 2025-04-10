@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f379d306-9a7a-4803-9ff1-88608e93c76d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/contact\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/contact\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}

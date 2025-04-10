@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/nl\/taxonomy\/term\/765?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/taxonomy_term\/belgian_cities"
+        },
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/belgian_cities\/parent": [
+            null
+        ],
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/belgian_cities\/content_translation_uid": [
+            {
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/user\/1?_format=hal_json",
+                "lang": "nl"
+            }
+        ],
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/belgian_cities\/feeds_item": [
+            {
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/feed\/1?_format=hal_json"
+            }
+        ]
+    },
+    "tid": [
+        {
+            "value": 765
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e1e2dc7e-fa95-4524-b211-c725445bb738"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl",
+            "lang": "nl"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "belgian_cities"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2025-04-08T10:10:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "nl"
+        }
+    ],
+    "name": [
+        {
+            "value": "Ch\u00e2tillon",
+            "lang": "nl"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/belgian_cities\/parent": [
+            null
+        ],
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/belgian_cities\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d01983f-d9d2-4a4c-9c68-44170d5f6b5f"
+                    }
+                ],
+                "lang": "nl"
+            }
+        ],
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/taxonomy_term\/belgian_cities\/feeds_item": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/feed\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/feeds_feed\/belgian_cities_importer"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c54b6430-8f83-46a3-b9a8-63177fa9a31f"
+                    }
+                ]
+            }
+        ]
+    },
+    "changed": [
+        {
+            "value": "2025-04-08T10:10:05+00:00",
+            "lang": "nl",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "nl"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "nl"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "Ch\u00e2tillon | Drush Site-Install"
+            },
+            "lang": "nl"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/nl\/taxonomy\/term\/765"
+            },
+            "lang": "nl"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "nl",
+            "lang": "nl"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "nl"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "nl"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2025-04-08T10:10:05+00:00",
+            "lang": "nl",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_zipcode": [
+        {
+            "value": "6747"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197351
+    }
+}

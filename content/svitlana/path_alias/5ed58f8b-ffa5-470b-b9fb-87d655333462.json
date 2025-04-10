@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 27
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5ed58f8b-ffa5-470b-b9fb-87d655333462"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/19"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/urban"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}

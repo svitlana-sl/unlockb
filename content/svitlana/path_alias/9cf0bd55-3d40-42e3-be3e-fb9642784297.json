@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 33
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9cf0bd55-3d40-42e3-be3e-fb9642784297"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "nl"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/25"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/limburg"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}

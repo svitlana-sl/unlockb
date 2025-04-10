@@ -1,0 +1,132 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/feed\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/feeds_feed\/belgian_cities_importer"
+        },
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/feeds_feed\/belgian_cities_importer\/uid": [
+            {
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c54b6430-8f83-46a3-b9a8-63177fa9a31f"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "belgian_cities_importer"
+        }
+    ],
+    "title": [
+        {
+            "value": "Belgian cities import"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/unlockbelgium.ddev.site:33000\/rest\/relation\/feeds_feed\/belgian_cities_importer\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/unlockbelgium.ddev.site:33000\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d01983f-d9d2-4a4c-9c68-44170d5f6b5f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-04-08T10:08:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-04-09T08:17:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "imported": [
+        {
+            "value": "2025-04-09T08:18:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "next": [
+        {
+            "value": "2025-04-09T09:18:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "queued": [
+        {
+            "value": "1970-01-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "source": [
+        {
+            "value": "public:\/\/feeds\/belgian-cities-geocoded.csv"
+        }
+    ],
+    "config": [
+        {
+            "fetcher": {
+                "fid": "1",
+                "usage_id": "d98e10e6-34ec-4639-8ca0-5cd63d253b94"
+            },
+            "parser": {
+                "delimiter": ",",
+                "no_headers": 0
+            }
+        }
+    ],
+    "item_count": [
+        {
+            "value": 1160
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| Drush Site-Install"
+            },
+            "lang": "und"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/unlockbelgium.ddev.site:33000\/en\/batch"
+            },
+            "lang": "und"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1744197344
+    }
+}
