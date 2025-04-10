@@ -1,0 +1,19 @@
+uuid: 6123a70c-262d-45ed-933a-e46abf3ff4d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.location_card
+id: node.location_card.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: location_card
+label: subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

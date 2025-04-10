@@ -13,6 +13,7 @@ module:
   config_translation: 0
   contact: 0
   contextual: 0
+  crop: 0
   datetime: 0
   dblog: 0
   default_content_deploy: 0
@@ -27,6 +28,7 @@ module:
   file: 0
   filter: 0
   flag: 0
+  focal_point: 0
   geofield: 0
   geolocation: 0
   hal: 0
@@ -41,6 +43,8 @@ module:
   leaflet: 0
   link: 0
   locale: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   metatag: 0

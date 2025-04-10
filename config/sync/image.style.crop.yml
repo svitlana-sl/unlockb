@@ -1,0 +1,17 @@
+uuid: cc4cde93-e82d-44a5-a3df-b0a0e7ec2935
+langcode: nl
+status: true
+dependencies:
+  module:
+    - focal_point
+name: crop
+label: Crop
+effects:
+  5dd3dcb3-5632-4ba2-95aa-e9c76477e9cf:
+    uuid: 5dd3dcb3-5632-4ba2-95aa-e9c76477e9cf
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 225
+      height: 338
+      crop_type: focal_point

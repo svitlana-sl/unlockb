@@ -5,7 +5,9 @@ dependencies:
   config:
     - field.storage.node.field_category_card
     - node.type.location_card
+    - taxonomy.vocabulary.belgian_cities
     - taxonomy.vocabulary.categories
+    - taxonomy.vocabulary.provincies
 id: node.location_card.field_category_card
 field_name: field_category_card
 entity_type: node
@@ -20,10 +22,12 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
+      belgian_cities: belgian_cities
       categories: categories
+      provincies: provincies
     sort:
       field: name
       direction: asc
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: categories
 field_type: entity_reference

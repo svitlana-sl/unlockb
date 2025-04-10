@@ -1,0 +1,35 @@
+uuid: 125fa5c5-14cf-41a0-92ff-952159de1304
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: location_card
+label: 'Location card'
+type: 'canonical_entities:node'
+pattern: '[node:title]/[node:field_subtitle]'
+selection_criteria:
+  4236d74c-571a-45c3-86b9-cd2ade56460e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 4236d74c-571a-45c3-86b9-cd2ade56460e
+    context_mapping:
+      node: node
+    bundles:
+      location_card: location_card
+  e549520b-54fa-45be-b98b-7770028196c6:
+    id: language
+    negate: false
+    uuid: e549520b-54fa-45be-b98b-7770028196c6
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+      nl: nl
+      fr: fr
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

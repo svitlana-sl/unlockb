@@ -1,12 +1,14 @@
-uuid: 9e442ca2-a841-4e8f-b238-77cd565c97ba
+uuid: 0f0a3458-c2be-4e12-867d-56b91327c109
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_card_title
-field_name: field_card_title
-entity_type: node
+    - media
+_core:
+  default_config_hash: cNf_852Dq-fNnSaMI4LxL-J6N7bLkHuDbD9EUqOn4_U
+id: media.field_media_oembed_video
+field_name: field_media_oembed_video
+entity_type: media
 type: string
 settings:
   max_length: 255

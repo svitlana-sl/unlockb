@@ -3,16 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.location_card.field_card_title
     - field.field.node.location_card.field_category_card
+    - field.field.node.location_card.field_description
     - field.field.node.location_card.field_flag
+    - field.field.node.location_card.field_geolocation
     - field.field.node.location_card.field_image_location
     - field.field.node.location_card.field_like
     - field.field.node.location_card.field_link
+    - field.field.node.location_card.field_subtitle
     - image.style.thumbnail
     - node.type.location_card
   module:
-    - image
+    - focal_point
+    - geolocation
     - link
     - path
 id: node.location_card.default
@@ -26,14 +29,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_card_title:
-    type: string_textfield
-    weight: 122
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   field_category_card:
     type: entity_reference_autocomplete
     weight: 124
@@ -44,6 +39,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_description:
+    type: string_textarea
+    weight: 127
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
   field_flag:
     type: boolean_checkbox
     weight: 126
@@ -51,13 +54,21 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
+  field_geolocation:
+    type: geolocation_latlng
+    weight: 128
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_image_location:
-    type: image_image
+    type: image_focal_point
     weight: 121
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+      preview_link: true
+      offsets: '50,50'
     third_party_settings: {  }
   field_like:
     type: boolean_checkbox
@@ -73,6 +84,14 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_subtitle:
+    type: string_textfield
+    weight: 129
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

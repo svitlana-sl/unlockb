@@ -1,0 +1,64 @@
+display:
+  default:
+    display_title: Standaard
+    display_options:
+      title: Media
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Items per pagina'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Offset
+      exposed_form:
+        options:
+          reset_button_label: 'Opnieuw instellen'
+          exposed_sorts_label: 'Sorteren op'
+          sort_asc_label: Oplopend
+          sort_desc_label: Aflopend
+      filters:
+        name:
+          expose:
+            label: Naam
+        langcode:
+          expose:
+            label: Taal
+  page:
+    display_title: Pagina
+    display_options:
+      fields:
+        name:
+          separator: ', '
+        edit_media:
+          text: Bewerken
+        delete_media:
+          text: Verwijderen
+  widget:
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Alle
+      filters:
+        name:
+          expose:
+            label: Naam
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: Naam
+        uid:
+          label: Auteur
+        changed:
+          label: Bijgewerkt
+      arguments:
+        bundle:
+          exception:
+            title: Alle
+      filters:
+        name:
+          expose:
+            label: Naam
