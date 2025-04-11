@@ -1,0 +1,46 @@
+display:
+  default:
+    display_title: Standaard
+    display_options:
+      fields:
+        thumbnail__target_id:
+          separator: ', '
+        name:
+          separator: ', '
+        bundle:
+          label: Type
+          separator: ', '
+        uid:
+          label: Auteur
+          separator: ', '
+        status:
+          label: Status
+          separator: ', '
+        changed:
+          label: Bijgewerkt
+          separator: ', '
+        operations:
+          label: Bewerkingen
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per pagina'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Offset
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: 'Opnieuw instellen'
+          exposed_sorts_label: 'Sorteren op'
+          sort_asc_label: Oplopend
+          sort_desc_label: Aflopend
+      filters:
+        bundle:
+          expose:
+            label: Type
+        status:
+          expose:
+            label: Waar
+        langcode:
+          expose:
+            label: Taal

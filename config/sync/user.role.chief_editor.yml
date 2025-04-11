@@ -1,4 +1,4 @@
-uuid: d64d18db-6099-4134-894a-a0644d0025e4
+uuid: 59b88f0b-4236-4dd6-87d5-e376170b290e
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,10 @@ dependencies:
     - node.type.article
     - node.type.location_card
     - node.type.page
+    - taxonomy.vocabulary.belgian_cities
+    - taxonomy.vocabulary.categories
+    - taxonomy.vocabulary.provincies
+    - taxonomy.vocabulary.tags
     - workflows.workflow.editorial
   module:
     - comment
@@ -25,11 +29,9 @@ dependencies:
     - taxonomy
     - toolbar
     - webform
-_core:
-  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
-id: content_editor
-label: Editor
-weight: -7
+id: chief_editor
+label: 'Chief Editor'
+weight: -6
 is_admin: false
 permissions:
   - 'access administration pages'
@@ -39,6 +41,7 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'access webform help'
+  - 'access webform overview'
   - 'access webform submission user'
   - 'change own username'
   - 'create article content'
@@ -47,7 +50,16 @@ permissions:
   - 'create location_card content'
   - 'create media'
   - 'create page content'
+  - 'create terms in belgian_cities'
+  - 'create terms in categories'
+  - 'create terms in provincies'
+  - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any article content'
+  - 'delete any location_card content'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete location_card revisions'
   - 'delete media'
   - 'delete own article content'
   - 'delete own document media'
@@ -56,6 +68,10 @@ permissions:
   - 'delete own location_card content'
   - 'delete own page content'
   - 'delete own social auth profile'
+  - 'delete page revisions'
+  - 'edit any article content'
+  - 'edit any location_card content'
+  - 'edit any page content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own document media'
@@ -63,16 +79,32 @@ permissions:
   - 'edit own location_card content'
   - 'edit own page content'
   - 'edit own webform submission'
+  - 'edit terms in belgian_cities'
+  - 'edit terms in categories'
+  - 'edit terms in provincies'
+  - 'edit terms in tags'
   - 'post comments'
+  - 'revert all revisions'
   - 'skip comment approval'
+  - 'translate belgian_cities taxonomy_term'
+  - 'translate categories taxonomy_term'
   - 'translate editable entities'
+  - 'translate provincies taxonomy_term'
+  - 'translate tags taxonomy_term'
   - 'update media'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
   - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
   - 'use text format basic_html'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view all taxonomy revisions'
   - 'view any document media revisions'
   - 'view any image media revisions'
+  - 'view any unpublished content'
+  - 'view any webform submission'
   - 'view article revisions'
   - 'view latest version'
   - 'view location_card revisions'
@@ -80,5 +112,9 @@ permissions:
   - 'view own unpublished media'
   - 'view own webform submission'
   - 'view page revisions'
+  - 'view term revisions in belgian_cities'
+  - 'view term revisions in categories'
+  - 'view term revisions in provincies'
+  - 'view term revisions in tags'
   - 'view the administration theme'
   - 'view vocabulary labels'

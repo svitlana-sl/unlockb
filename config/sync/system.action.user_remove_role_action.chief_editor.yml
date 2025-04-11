@@ -1,0 +1,14 @@
+uuid: faca792f-1c35-4501-9ec9-feb3a3c3ec10
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chief_editor
+  module:
+    - user
+id: user_remove_role_action.chief_editor
+label: 'Remove the Chief Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chief_editor
