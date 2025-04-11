@@ -1,0 +1,14 @@
+uuid: 12b3e065-ffe5-4a39-8ae8-6359b7743e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.end_user
+  module:
+    - user
+id: user_add_role_action.end_user
+label: 'Add the End-user role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: end_user

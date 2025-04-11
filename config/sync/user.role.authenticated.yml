@@ -3,43 +3,30 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.basic_html
     - filter.format.webform_default
     - media.type.document
     - media.type.image
   module:
     - comment
     - contact
-    - file
     - filter
     - media
     - search
     - shortcut
+    - social_auth
     - system
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
 id: authenticated
 label: 'Authenticated user'
-weight: 1
+weight: -9
 is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
-  - 'create document media'
-  - 'create image media'
-  - 'delete media'
-  - 'delete own document media'
-  - 'delete own files'
-  - 'delete own image media'
-  - 'edit own document media'
-  - 'edit own image media'
-  - 'post comments'
+  - 'delete own social auth profile'
   - 'search content'
-  - 'skip comment approval'
-  - 'update media'
-  - 'use text format basic_html'
   - 'use text format webform_default'
   - 'view media'
-  - 'view own unpublished media'

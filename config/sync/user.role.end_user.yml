@@ -1,0 +1,48 @@
+uuid: daeaac6e-38fd-4b74-9465-05ed250a8769
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - media.type.document
+    - media.type.image
+    - node.type.article
+    - node.type.location_card
+    - node.type.page
+  module:
+    - comment
+    - file
+    - filter
+    - media
+    - node
+    - social_auth
+    - webform
+id: end_user
+label: End-user
+weight: -8
+is_admin: false
+permissions:
+  - 'access webform submission user'
+  - 'change own username'
+  - 'create document media'
+  - 'create image media'
+  - 'create location_card content'
+  - 'create media'
+  - 'delete media'
+  - 'delete own document media'
+  - 'delete own files'
+  - 'delete own image media'
+  - 'delete own location_card content'
+  - 'delete own social auth profile'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own location_card content'
+  - 'edit own page content'
+  - 'edit own webform submission'
+  - 'post comments'
+  - 'update media'
+  - 'use text format basic_html'
+  - 'view own unpublished content'
+  - 'view own webform submission'
