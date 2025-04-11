@@ -1,7 +1,9 @@
+label: Media
 display:
   default:
     display_title: Standaard
     display_options:
+      title: Media
       fields:
         thumbnail__target_id:
           separator: ', '
@@ -44,3 +46,8 @@ display:
         langcode:
           expose:
             label: Taal
+  media_page_list:
+    display_title: Media
+    display_options:
+      menu:
+        title: Media

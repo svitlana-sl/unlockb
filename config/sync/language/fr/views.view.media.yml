@@ -1,7 +1,9 @@
+label: Média
 display:
   default:
     display_title: 'Par défaut'
     display_options:
+      title: Média
       fields:
         thumbnail__target_id:
           separator: ', '
@@ -44,3 +46,8 @@ display:
         langcode:
           expose:
             label: Langue
+  media_page_list:
+    display_title: Média
+    display_options:
+      menu:
+        title: Média

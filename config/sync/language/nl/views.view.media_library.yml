@@ -2,6 +2,7 @@ display:
   default:
     display_title: Standaard
     display_options:
+      title: Media
       pager:
         options:
           tags:

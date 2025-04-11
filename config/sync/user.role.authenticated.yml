@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - filter.format.webform_default
+    - media.type.document
+    - media.type.image
   module:
     - comment
     - contact

@@ -1,18 +1,18 @@
-uuid: a1837d28-8a23-465f-a1b5-b7ef5715c664
+uuid: 22b0ea6a-5116-43e2-b9b9-fad985322b3a
 langcode: en
 status: true
 dependencies:
   module:
-    - link
+    - geolocation
     - node
-id: node.field_link
-field_name: field_link
+id: node.field_geolocation
+field_name: field_geolocation
 entity_type: node
-type: link
+type: geolocation
 settings: {  }
-module: link
+module: geolocation
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

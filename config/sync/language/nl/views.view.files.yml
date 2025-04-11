@@ -10,6 +10,8 @@ display:
           label: Status
           settings:
             format_custom_false: Tijdelijk
+        count:
+          label: 'Gebruikt in'
         operations:
           label: Bewerkingen
       pager:
